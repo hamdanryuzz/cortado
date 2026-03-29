@@ -1,7 +1,20 @@
 <div align="center">
+  <img src="logo.svg" width="262" height="72" alt="cortado logo"/>
   <img src="logo.svg" width="262" height="72" alt="cortado"/>
   <br/><br/>
-  <p>Threat modeling tool for REST APIs — input a Postman Collection, get a threat report.</p>
+  <p><strong>API Threat Modeling Tool</strong></p>
+  <p>
+    Analyzes Postman Collections for security vulnerabilities using<br/>
+    <strong>STRIDE</strong> methodology mapped to <strong>OWASP API Security Top 10 (2023)</strong>
+  </p>
+  <p>
+    <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white" alt="Python"/>
+    <img src="https://img.shields.io/badge/FastAPI-0.110%2B-009688?logo=fastapi&logoColor=white" alt="FastAPI"/>
+    <img src="https://img.shields.io/badge/OWASP_API_2023-covered-orange" alt="OWASP"/>
+    <img src="https://img.shields.io/badge/rules-17-blueviolet" alt="Rules"/>
+    <img src="https://img.shields.io/badge/license-MIT-green" alt="License"/>
+  </p>
+  <p>Threat modeling tool untuk REST API — input Postman Collection, output laporan ancaman.</p>
 </div>
 
 ---
