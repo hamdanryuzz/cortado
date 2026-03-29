@@ -1,6 +1,5 @@
 <div align="center">
   <img src="logo.svg" width="262" height="72" alt="cortado logo"/>
-  <img src="logo.svg" width="262" height="72" alt="cortado"/>
   <br/><br/>
   <p><strong>API Threat Modeling Tool</strong></p>
   <p>
