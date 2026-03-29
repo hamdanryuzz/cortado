@@ -163,6 +163,7 @@ async def health() -> dict[str, str]:
     tags=["Analysis"],
     summary="Analyze from JSON body",
     response_description="Threat model report (JSON or Markdown)",
+    response_model=None,
 )
 async def analyze(request: AnalyzeRequest) -> JSONResponse | PlainTextResponse:
     """
@@ -190,6 +191,7 @@ async def analyze(request: AnalyzeRequest) -> JSONResponse | PlainTextResponse:
     tags=["Analysis"],
     summary="Analyze from file upload",
     response_description="Threat model report (JSON or Markdown)",
+    response_model=None,
 )
 async def analyze_upload(
     file: UploadFile = File(
