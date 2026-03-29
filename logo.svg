@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262 72" width="262" height="72">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Card background -->
+  <rect width="262" height="72" rx="16" fill="#fdf6ee"/>
+
+  <!-- Shadow circle (back, lighter brown, offset) -->
+  <circle cx="52" cy="44" r="20" fill="#f3d5a8"/>
+
+  <!-- Main circle (front, coffee brown) -->
+  <circle cx="42" cy="34" r="22" fill="#92400e"/>
+
+  <!-- Bean crease — white S-curve from top tip to bottom tip -->
+  <path d="M42 14 C48 24 36 34 42 54"
+        fill="none" stroke="white" stroke-width="3"
+        stroke-linecap="round" opacity="0.88"/>
+
+  <!-- Wordmark -->
+  <text
+    x="82" y="47"
+    font-family="'Nunito', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-weight="800"
+    font-size="28"
+    fill="#431407"
+    letter-spacing="-0.3">cortado</text>
+</svg>
